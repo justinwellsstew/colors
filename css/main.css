@@ -56,29 +56,35 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
   header {
-    background-color: ;
+    background-color: aquamarine;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: azure;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: powderblue;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: papayawhip;
   }
 
   footer {
-    background-color: ;
+    background-color: darkorchid;
   }
 }
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.33%;
+  }
   header {
     background-color: chartreuse;
   }
